@@ -14,7 +14,7 @@ app = Flask(__name__)
 CORS(app, resources={r"/*": {"origins": "*"}})
 
 # Configure Google GEMINI API
-API_KEY = "AIzaSyCJYHFJJJoryn_rQWL-kvsFAJVVreNkj1k"  # Replace with your actual Google PaLM API key
+API_KEY = "Skibidi Toilet"  # Replace with your actual Google PaLM API key
 genai.configure(api_key=API_KEY)
 
 base_model = "models/gemini-1.5-flash-001-tuning"
