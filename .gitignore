@@ -1,0 +1,7 @@
+./DATA
+./NEW_DATA
+./.condaenv
+./.venv
+./app.py
+./backup_app.py
+./index.ipynb
