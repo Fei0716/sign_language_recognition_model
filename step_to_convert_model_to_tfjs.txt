@@ -1,0 +1,4 @@
+Convert keras model to tensorflow js format:
+1. export as saved_model inside PyCharm
+2. inside google colab and tensorflow = 2.15.1: https://colab.research.google.com/drive/1zGuUrIVKvIOInijqupiTkODoVKDLiBTb
+ tensorflowjs_converter --input_format=tf_saved_model “my_model_dir_name” {my_js_model_dir_name}

@@ -3,7 +3,7 @@
 sign_language_actions = [
     'Hi', 'Saya Sayang Awak', 'Makan', 'Selamat Malam', 'Terima Kasih', 'Apa Khabar',
     'Awak', 'Saya', 'Minum', 'Salah', 'Betul', 'Minta Maaf', 'Tolong', 'Hijau',
-    'Kita', 'Mereka', 'Ini', 'Itu', 'Apa', 'Siapa', 'Ini Di Luar Pengetahuan Saya'
+    'Kita', 'Mereka', 'Ini', 'Itu', 'Apa', 'Siapa', 'Ini Di Luar Pengetahuan Saya', 'Khabar Baik', 'Sama-sama'
 ]
 
 diverse_training_data = [
@@ -69,15 +69,15 @@ diverse_training_data = [
     },
     {
         "text_input": "What are some of the recognized sign language actions?", 
-        "output": "Currently, the model can recognize 21 actions such as 'Hi', 'Saya Sayang Awak', 'Makan', 'Selamat Malam', and 'Terima Kasih'."
+        "output": "Currently, the model can recognize 23 actions such as 'Hi', 'Saya Sayang Awak', 'Makan', 'Selamat Malam', and 'Terima Kasih'."
     },
     {
         "text_input": "Which sign language gestures can EchoSign detect?", 
-        "output": "Currently, the model can recognize 21 actions such as 'Hi', 'Saya Sayang Awak', 'Makan', 'Selamat Malam', and 'Terima Kasih'."
+        "output": "Currently, the model can recognize 23 actions such as 'Hi', 'Saya Sayang Awak', 'Makan', 'Selamat Malam', and 'Terima Kasih'."
     },
     {
         "text_input": "What actions are recognized by the sign language model?", 
-        "output": "Currently, the model can recognize 21 actions such as 'Hi', 'Saya Sayang Awak', 'Makan', 'Selamat Malam', and 'Terima Kasih'."
+        "output": "Currently, the model can recognize 23 actions such as 'Hi', 'Saya Sayang Awak', 'Makan', 'Selamat Malam', and 'Terima Kasih'."
     },
     {
         "text_input": "What is the meeting interface like?", 
@@ -93,23 +93,23 @@ diverse_training_data = [
     },
     {
         "text_input": "What are all the actions the sign language model can detect?", 
-        "output": f"The model can detect the following actions: {', '.join(sign_language_actions)}."
+        "output": f"The model can detect {len(sign_language_actions)} actions such as: {', '.join(sign_language_actions)}."
     },
     {
         "text_input": "List the actions recognized by the sign language model.", 
-        "output": f"The model can detect the following actions: {', '.join(sign_language_actions)}."
+        "output": f"The model can detect {len(sign_language_actions)} actions such as: {', '.join(sign_language_actions)}."
     },
     {
         "text_input": "Can you provide the full list of recognized sign language gestures?", 
-        "output": f"The model can detect the following actions: {', '.join(sign_language_actions)}."
+        "output": f"The model can detect {len(sign_language_actions)} actions such as: {', '.join(sign_language_actions)}."
     },
     {
         "text_input": "Which gestures does the platform support?", 
-        "output": f"The model can detect the following actions: {', '.join(sign_language_actions)}."
+        "output": f"The model can detect {len(sign_language_actions)} actions such as: {', '.join(sign_language_actions)}."
     },
     {
         "text_input": "What signs are identified by the recognition model?", 
-        "output": f"The model can detect the following actions: {', '.join(sign_language_actions)}."
+        "output": f"The model can detect {len(sign_language_actions)} actions such as: {', '.join(sign_language_actions)}."
     },
     {
         "text_input": "How do I enable the sign language recognition model?",
@@ -196,6 +196,71 @@ diverse_training_data = [
         "output": "For inquiries or complaints about the system, you can contact B032320066@student.utem.edu.my"
     },
     {
+        "text_input": "Who can I contact to get further support or inquiries?",
+        "output": "For inquiries or complaints about the system, you can contact B032320066@student.utem.edu.my"
+    },
+     {
+        "text_input": "How do I get in touch with support?",
+        "output": "For inquiries or complaints about the system, you can contact B032320066@student.utem.edu.my"
+    },
+    {
+        "text_input": "Who do I reach out to for help?",
+        "output": "For inquiries or complaints about the system, you can contact B032320066@student.utem.edu.my"
+    },
+    {
+        "text_input": "Can you provide the contact for system support?",
+        "output": "For inquiries or complaints about the system, you can contact B032320066@student.utem.edu.my"
+    },
+    {
+        "text_input": "What is the email for support inquiries?",
+        "output": "For inquiries or complaints about the system, you can contact B032320066@student.utem.edu.my"
+    },
+    {
+        "text_input": "I need help with the system. Who should I contact?",
+        "output": "For inquiries or complaints about the system, you can contact B032320066@student.utem.edu.my"
+    },
+    {
+        "text_input": "Is there a way to report a problem with the system?",
+        "output": "For inquiries or complaints about the system, you can contact B032320066@student.utem.edu.my"
+    },
+    {
+        "text_input": "Where can I send feedback about the system?",
+        "output": "For inquiries or complaints about the system, you can contact B032320066@student.utem.edu.my"
+    },
+    {
+        "text_input": "How can I file a complaint regarding the system?",
+        "output": "For inquiries or complaints about the system, you can contact B032320066@student.utem.edu.my"
+    },
+    {
+        "text_input": "Can I email someone about issues with the platform?",
+        "output": "For inquiries or complaints about the system, you can contact B032320066@student.utem.edu.my"
+    },
+    {
+        "text_input": "Who do I contact for technical support?",
+        "output": "For inquiries or complaints about the system, you can contact B032320066@student.utem.edu.my"
+    },
+    {
+        "text_input": "How can I communicate my concerns about the system?",
+        "output": "For inquiries or complaints about the system, you can contact B032320066@student.utem.edu.my"
+    },
+    {
+        "text_input": "Is there an email address for system support?",
+        "output": "For inquiries or complaints about the system, you can contact B032320066@student.utem.edu.my"
+    },
+    {
+        "text_input": "I have an issue. Who should I email?",
+        "output": "For inquiries or complaints about the system, you can contact B032320066@student.utem.edu.my"
+    },
+    {
+        "text_input": "How do I report a bug in the system?",
+        "output": "For inquiries or complaints about the system, you can contact B032320066@student.utem.edu.my"
+    },
+    {
+        "text_input": "Is there a support email for complaints?",
+        "output": "For inquiries or complaints about the system, you can contact B032320066@student.utem.edu.my"
+    },
+
+    {
         "text_input": "How do I change my input settings?",
         "output": "You can change input settings like microphone or webcam by clicking the settings button (nut icon) at the bottom left of the page."
     },
@@ -243,6 +308,7 @@ diverse_training_data = [
         "text_input": "How do I invite others?",
         "output": "Participants can join using a shared meeting link (click the share button to copy) or by entering the room ID on the home page's join meeting button."
     },
+
     {
         "text_input": "What makes TCN better for sign language recognition?",
         "output": "TCN is optimal for sign language recognition because it processes temporal sequences efficiently, handles variable-length inputs well, and maintains stable gradients during training compared to other deep learning methods."
@@ -325,6 +391,10 @@ diverse_training_data = [
     },
     {
         "text_input": "What lighting is best for sign language recognition?",
+        "output": "Use even, front-facing lighting that clearly illuminates your upper body, arms, and hands without creating shadows."
+    },
+    {
+        "text_input": "Why the sign language recognition is not that accurate?",
         "output": "Use even, front-facing lighting that clearly illuminates your upper body, arms, and hands without creating shadows."
     },
     {
